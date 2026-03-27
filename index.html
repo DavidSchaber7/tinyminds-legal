@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinyMinds – Datenschutz & Nutzungsbedingungen</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #FFF9F0; color: #2D2D2D; line-height: 1.6; }
+    .container { max-width: 700px; margin: 0 auto; padding: 24px 16px; }
+    h1 { font-size: 28px; margin-bottom: 8px; color: #E8816E; }
+    h2 { font-size: 20px; margin: 32px 0 12px; color: #2D2D2D; border-bottom: 2px solid #E8816E; padding-bottom: 4px; }
+    h3 { font-size: 16px; margin: 20px 0 8px; color: #444; }
+    p, li { font-size: 15px; color: #555; margin-bottom: 8px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    a { color: #E8816E; }
+    .nav { display: flex; gap: 16px; margin: 16px 0 32px; }
+    .nav a { background: #E8816E; color: #fff; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; }
+    .nav a:hover { opacity: 0.9; }
+    .updated { font-size: 13px; color: #999; margin-top: 32px; text-align: center; }
+    .support { background: #fff; border-radius: 12px; padding: 20px; margin-top: 32px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TinyMinds</h1>
+    <p style="font-size:17px; color:#888; margin-bottom:8px;">Dein smarter Eltern-Begleiter</p>
+
+    <div class="nav">
+      <a href="#datenschutz">Datenschutz</a>
+      <a href="#nutzung">Nutzungsbedingungen</a>
+      <a href="#support">Support</a>
+    </div>
+
+    <!-- ═══ DATENSCHUTZ ═══ -->
+    <h2 id="datenschutz">Datenschutzerklärung</h2>
+    <p>Deine Privatsphäre ist uns wichtig. TinyMinds ist auf minimale Datenerhebung ausgelegt.</p>
+
+    <h3>1. Verantwortliche Stelle</h3>
+    <p>David Schaber<br>Hanfweg 4<br>77977 Rust<br>hello@tinyminds.app</p>
+
+    <h3>2. Welche Daten wir erheben</h3>
+    <ul>
+      <li>Kontodaten: E-Mail-Adresse, Name (bei Google/Apple Login)</li>
+      <li>Kindprofil: Vorname, Geburtsdatum, Geschlecht</li>
+      <li>Tracker-Daten: Schlaf-, Ess- und Wachstumseinträge</li>
+      <li>Meilensteine: Entwicklungsfortschritte deines Kindes</li>
+      <li>Chat-Verlauf: Nachrichten an den KI-Chatbot Mia</li>
+      <li>Einstellungen: App-Präferenzen</li>
+      <li>Profilbild: Optionales Avatar-Foto</li>
+    </ul>
+
+    <h3>3. Rechtsgrundlage</h3>
+    <ul>
+      <li>Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) – für die Registrierung</li>
+      <li>Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung) – App-Funktionen</li>
+      <li>Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse) – Sicherheit</li>
+    </ul>
+
+    <h3>4. Datenspeicherung</h3>
+    <p>Deine Daten werden lokal auf deinem Gerät und in der Cloud bei Supabase (EU-Server) gespeichert. Die Übertragung erfolgt verschlüsselt über HTTPS. Deine Daten sind durch Row Level Security geschützt.</p>
+
+    <h3>5. Authentifizierung</h3>
+    <p>Anmeldung über E-Mail/Passwort, Google Sign-In oder Apple Sign-In. Bei Google/Apple werden nur Name und E-Mail übermittelt. Passwörter werden nie von uns gespeichert.</p>
+
+    <h3>6. KI-Chat (Mia)</h3>
+    <p>Nachrichten an Mia werden über Supabase Edge Functions an die Anthropic API weitergeleitet. Deine Nachrichten werden nicht zum KI-Training verwendet. Sende keine sensiblen Daten im Chat.</p>
+
+    <h3>7. Keine Werbung, kein Tracking</h3>
+    <p>TinyMinds enthält keine Werbung, kein Analytics-Tracking, keine Cookies (außer Auth), kein Fingerprinting und keine Datenweitergabe an Dritte.</p>
+
+    <h3>8. Datenaufbewahrung</h3>
+    <p>Daten werden gespeichert, solange dein Konto aktiv ist. Bei Löschung werden alle Daten innerhalb von 30 Tagen entfernt.</p>
+
+    <h3>9. Deine Rechte (DSGVO)</h3>
+    <ul>
+      <li>Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17)</li>
+      <li>Einschränkung (Art. 18), Datenübertragbarkeit (Art. 20)</li>
+      <li>Widerspruch (Art. 21), Widerruf der Einwilligung</li>
+    </ul>
+    <p>Kontakt: <a href="mailto:hello@tinyminds.app">hello@tinyminds.app</a></p>
+
+    <h3>10. Datenlöschung</h3>
+    <p>Einzelne Einträge direkt in der App. Gesamtes Konto über Einstellungen oder per E-Mail. Lokale Daten durch Deinstallation.</p>
+
+    <h3>11. Datensicherheit</h3>
+    <p>TLS/HTTPS, Row Level Security, OAuth 2.0, regelmäßige Updates, keine Klartext-Passwörter.</p>
+
+    <h3>12. Beschwerderecht</h3>
+    <p>Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren.</p>
+
+    <h3>13. KI-Transparenz (EU AI Act)</h3>
+    <p>Mia basiert auf Claude von Anthropic. Mia ist ein KI-System, keine echte Person. Antworten sind maschinell generiert. Keine medizinischen Diagnosen.</p>
+
+    <!-- ═══ NUTZUNGSBEDINGUNGEN ═══ -->
+    <h2 id="nutzung">Nutzungsbedingungen</h2>
+
+    <h3>1. Geltungsbereich</h3>
+    <p>Diese Nutzungsbedingungen gelten für die Nutzung der App TinyMinds von David Schaber, Hanfweg 4, 77977 Rust.</p>
+
+    <h3>2. Leistungsbeschreibung</h3>
+    <p>TinyMinds ist eine Eltern-App mit Tracker, KI-Chat, Meilensteinen und Berichten. Die App dient ausschließlich zur Information und ersetzt keine ärztliche Beratung.</p>
+
+    <h3>3. Medizinischer Haftungsausschluss</h3>
+    <p>TinyMinds bietet keine medizinische Beratung, Diagnose oder Behandlung. Bei gesundheitlichen Fragen wende dich an deinen Kinderarzt.</p>
+
+    <h3>4. Abonnement (Premium)</h3>
+    <p>TinyMinds Premium ist als monatliches Abo erhältlich. Die Abrechnung erfolgt über Apple (App Store). Das Abo verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor Ablauf gekündigt wird.</p>
+
+    <h3>5. Kündigung</h3>
+    <p>Kündigung des Abos über die iPhone-Einstellungen → Apple-ID → Abonnements. Kostenlose Funktionen bleiben nach Kündigung nutzbar.</p>
+
+    <h3>6. Haftungsbeschränkung</h3>
+    <p>Wir haften nicht für Schäden, die durch die Nutzung der App entstehen, insbesondere nicht für KI-generierte Inhalte.</p>
+
+    <h3>7. Änderungen</h3>
+    <p>Wir behalten uns vor, diese Bedingungen zu ändern. Wesentliche Änderungen werden in der App mitgeteilt.</p>
+
+    <!-- ═══ SUPPORT ═══ -->
+    <div class="support" id="support">
+      <h2 style="border:none; margin-top:0;">Support</h2>
+      <p>Brauchst du Hilfe? Kontaktiere uns:</p>
+      <p><a href="mailto:hello@tinyminds.app">hello@tinyminds.app</a></p>
+      <p style="margin-top:12px; font-size:13px; color:#999;">Wir antworten in der Regel innerhalb von 24 Stunden.</p>
+    </div>
+
+    <p class="updated">Stand: März 2026</p>
+  </div>
+</body>
+</html>
